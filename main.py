@@ -3,6 +3,7 @@ import demo.spectrum.main as dsm
 import demo.complex.main as dcm
 import demo.filtering.main as dfm
 import demo.convolution.main as dcm
+import demo.wavelet.main as dwm
 
 
 
@@ -47,5 +48,16 @@ if __name__ == '__main__':
     # dcm.za_tim_conv_2()
     # dcm.za_tim_conv_3()
     # dcm.za_tim_freq_1()
-    dcm.za_tim_freq_2()
+    # dcm.za_tim_freq_2()
+    # dcm.za_tim_gauss()
+    # dcm.za_freq_gauss()
+    # dcm.za_freq_plank()
+    # dwm.za_morlet_filt()
+    # dwm.za_haar_filt()
+    # dwm.za_hat_filt()
+    # dwm.za_dog_filt()
+    # dwm.za_wavelet_filt()
+    # dwm.za_wavelet_narrow_band_filt()
+    # dwm.za_morlet_complx_filt_1()
+    dwm.za_morlet_complx_filt_2()
     print("za")
