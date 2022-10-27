@@ -49,6 +49,7 @@ def za_tim_conv_1():
 
     plt.show()
 
+
 def za_tim_conv_2():
     ## in a bit more detail
 
@@ -128,6 +129,9 @@ def za_tim_freq_1():
     plt.plot(conv_freq, '-', label='Freq. domain')
     plt.legend()
     plt.show()
+
+
+
 
 # VIDEO: Convolution with frequency-domain Gaussian (narrowband filter)
 def za_tim_freq_2():
@@ -312,6 +316,7 @@ def za_freq_gauss():
     plt.xlim([0, 25])
     plt.ylim([0, 1e6])
     plt.show()
+
 
 def za_freq_plank():
     ## create the signal
