@@ -4,6 +4,7 @@ import demo.complex.main as dcm
 import demo.filtering.main as dfm
 import demo.convolution.main as dcm
 import demo.wavelet.main as dwm
+import demo.feature.main as dfm
 
 
 
@@ -59,5 +60,6 @@ if __name__ == '__main__':
     # dwm.za_wavelet_filt()
     # dwm.za_wavelet_narrow_band_filt()
     # dwm.za_morlet_complx_filt_1()
-    dwm.za_morlet_complx_filt_2()
+    # dwm.za_morlet_complx_filt_2()
+    dfm.za_local_max_min()
     print("za")
